@@ -1,0 +1,8 @@
+.MuiDialog-paperWidthSm {
+    width: 35%;
+    min-width: 210px;
+}
+
+.MuiTextField-root{
+    width: 100%;
+}

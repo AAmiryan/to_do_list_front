@@ -1,0 +1,19 @@
+.tasks{
+    border: 1px solid silver;
+    margin: 5px;
+    border-radius: 5%;
+    min-width: 130px;
+}
+
+.checked{
+    border: 1px solid red ;
+    border-radius: 5%;
+}
+
+.titleText{
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+    font-size: large;
+}
+
