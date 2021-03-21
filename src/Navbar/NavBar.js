@@ -18,6 +18,7 @@ import MoreIcon from '@material-ui/icons/MoreVert';
 import HomeIcon from '@material-ui/icons/Home';
 import ContactPhoneIcon from '@material-ui/icons/ContactPhone';
 import InfoIcon from '@material-ui/icons/Info';
+import AddCircleOutlineIcon from '@material-ui/icons/AddCircleOutline';
 import './Navbar.css'
 
 const useStyles = makeStyles((theme) => ({
@@ -111,6 +112,7 @@ function NavBar() {
 
     const menuId = 'primary-search-account-menu';
     const renderMenu = (
+       
         <Menu
             anchorEl={anchorEl}
             anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
